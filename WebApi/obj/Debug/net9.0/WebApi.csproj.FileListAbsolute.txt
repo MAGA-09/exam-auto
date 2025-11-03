@@ -143,3 +143,5 @@ C:\Users\Maga_\OneDrive\Desktop\examin\WebApi\obj\Debug\net9.0\refint\WebApi.dll
 C:\Users\Maga_\OneDrive\Desktop\examin\WebApi\obj\Debug\net9.0\WebApi.pdb
 C:\Users\Maga_\OneDrive\Desktop\examin\WebApi\obj\Debug\net9.0\WebApi.genruntimeconfig.cache
 C:\Users\Maga_\OneDrive\Desktop\examin\WebApi\obj\Debug\net9.0\ref\WebApi.dll
+C:\Users\Maga_\OneDrive\Desktop\examin\WebApi\obj\Debug\net9.0\WebApi.sourcelink.json
+C:\Users\Maga_\OneDrive\Desktop\examin\WebApi\bin\Debug\net9.0\BCrypt.Net-Next.dll

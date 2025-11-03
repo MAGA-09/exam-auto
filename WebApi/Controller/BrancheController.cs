@@ -1,12 +1,13 @@
 ﻿using Domain.DTOS.Branch;
 using Infrastructure.Enum;
 using Infrastructure.Interface.Branche;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace WebApi.Controllers;
-
+[Authorize]
 [ApiController]
-[Route("api/branches")]
+[Route("[controller]")]
 public class BrancheController(IBrancheCrudService service,IBrancheGetService getService) : ControllerBase
 {
     [HttpGet]

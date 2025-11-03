@@ -1,12 +1,13 @@
 ﻿using Domain.DTOS.Car;
 using Infrastructure.Enum;
 using Infrastructure.Interface.Car;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace WebApi.Controllers;
-
+[Authorize]
 [ApiController]
-[Route("api/cars")]
+[Route("[controller]")]
 public class CarController(ICarCrudService service,ICarGetService getService) : ControllerBase
 {
     [HttpGet]
